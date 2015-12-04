@@ -1,0 +1,37 @@
+@import "variables/all";
+@import "templates/all";
+@import "modules/all";
+
+
+body {
+	width: calc(100% - 16px);
+	border: 8px solid #333;
+}
+
+
+div.main-wrapper.ng-enter, div.main-wrapper.ng-leave {
+  	-webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+div.main-wrapper.ng-enter {
+	-webkit-transform: translate3d(0, 100%, 0);
+	-moz-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+}
+div.main-wrapper.ng-enter-active {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+div.main-wrapper.ng-leave {
+  	-webkit-transform: translate3d(0, -100%, 0);
+  	-moz-transform: translate3d(0, -100%, 0);
+  	transform: translate3d(0, -100%, 0);
+}
+div.main-wrapper.ng-leave-active {
+	-webkit-transform: translate3d(0, -200%, 0);
+  	-moz-transform: translate3d(0, -200%, 0);
+  	transform: translate3d(0, -200%, 0);
+}

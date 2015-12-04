@@ -1,0 +1,26 @@
+main.dock {
+
+	div.content-wrapper {
+		width: 100%;
+
+		article {
+			width: 100%;
+
+			div.article-content {
+				margin: 0 auto;
+				width: 85%;
+
+				h1.article-header {
+					margin: 0;
+					padding: 60px 0 40px 0;
+					font-family: $header-font-1;
+					font-size: 2em;
+					color: #333;
+				}
+				div.inner-content {
+					overflow: hidden;
+				}
+			}
+		}
+	}
+}

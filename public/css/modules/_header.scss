@@ -1,0 +1,129 @@
+$break-1: 800px;
+$break-2: 850px;
+$break-3: 1000px;
+
+header {
+	width: 100%;
+	background-color: #333;
+
+	div.header-inner {
+		margin: 0 auto;
+		padding: 12px 0;
+		width: calc(100% - 30px);
+		overflow: auto;
+
+		div.header-left {
+			float: left;
+
+			a {
+				display: block;
+				cursor: pointer;
+
+				img {
+					display: block;
+					width: 50px;
+				}
+
+				// no more hamburger
+				@media(min-width: $break-1) {
+					img {
+						width: 60px;
+					}
+				}
+			}
+			a:hover {
+				opacity: 0.8;
+			}
+		}
+		div.header-nav {
+
+			i.burger {
+				float: right;
+				padding-top: 5px;
+				font-size: 3em;
+				color: #fff;
+			}
+			ul {
+				display: none;
+				margin: 0;
+				padding: 0;
+
+				li {
+					display: inline-block;
+
+					a {
+						font-family: $text-font-1;
+						font-weight: normal;
+						text-decoration: none;
+						outline: none;
+						cursor: pointer;
+					}
+					span {
+
+					}
+				}
+			}
+
+			// no more hamburger
+			@media(min-width: $break-1) {
+				i.burger {
+					display: none;
+				}
+				ul {
+					text-align: center;
+					display: block;
+
+					li {
+						width: 140px;
+						vertical-align: top;
+
+						a {
+							display: block;
+							padding-top: 23px;
+							font-size: 1.1em;
+							line-height: 1em;
+							color: #666;
+							-webkit-transition: color 0.5s ease;
+							    -moz-transition: color 0.5s ease;
+							    -o-transition: color 0.5s ease;
+							    transition: color 0.5s ease;
+						}
+					}
+					li:not(.active):hover {
+
+						a {
+							color: #aaa;
+						}
+					}
+					li.active {
+
+						a {
+							color: #fff;
+						}
+						span {
+							padding-top: 3px;
+							font-family: $text-font-1;
+							font-weight: normal;
+							font-size: 0.8em;
+							color: #888;
+							border-top: 1px solid #888;
+						}
+					}
+
+					// spread li's out more
+					@media(min-width: $break-3) {
+						li {
+							width: 180px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media(min-width: $break-1) {
+		div.header-inner {
+			width: 85%;
+		}
+	}
+}

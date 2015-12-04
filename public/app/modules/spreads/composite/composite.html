@@ -1,0 +1,204 @@
+<ng-include src="'/public/app/modules/header/header.html'"
+            ng-controller="HeaderCtrl"></ng-include>
+
+
+<article class="spread composite">
+
+
+	<section class="all-work">
+		<div class="section-content">
+			<button ng-click="state.go('dock.work')">
+				<i class="ionicons ion-chevron-left"></i>
+				<span>All work</span>
+			</button>
+		</div>
+	</section>
+
+
+	<section class="spread-banner">
+		<div class="section-content">
+			<div class="spread-banner-left">
+				<div class="spread-banner-title">
+				<h1>Composite</h1>
+				<h2>Technology as urban art</h2>
+			</div>
+			<div class="spread-banner-roles">
+				<ul>
+					<li>Front-End Development</li>
+					<li>UI Design</li>
+					<li>UX Design</li>
+					<li>Back-End Development</li>
+				</ul>
+			</div>
+			<div class="spread-banner-summary">
+				<p>
+					Harnessing social media feeds, computer vision
+					technology, and the Google Maps API, Composite
+					provides an artistic representation of
+					demographic and sociological trends in
+					different regions.
+				</p>
+			</div>
+			<div class="spread-banner-links">
+				<ul>
+					<li class="github">
+						<a target="_blank" href="https://github.com/jonrovira/composite">
+							<i class="fa fa-github"></i>
+							<span>GitHub Repository</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			</div>
+			<div class="spread-banner-right">
+				<img src="/public/img/spreads/composite/banner.png" />
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-basic-section">
+		<div class="section-content">
+			<div class="spread-section-left content">
+				<h2>Background</h2>
+				<p>
+					Alex Kaldjian, Matt Ehringer, and I began
+					working on Composite in the spring of 2014 when
+					our professor, Zach Wise, proposed the idea of
+					an interface displaying "location-based-faces"
+					in our class titled Innovations in Journalism
+					and Technology. We ultimately dreamed of putting multiple instances
+					of the inteface on various
+					street corners with their configurations set to
+					those locations. The first step, though, was building out the application for a desktop.
+				</p>
+			</div>
+			<div class="spread-section-right media">
+				<img src="/public/img/spreads/composite/background.png" />
+				<span class="caption">Initial paper prototypes</span>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-basic-section">
+		<div class="section-content">
+			<div class="spread-section-left media">
+				<img src="/public/img/spreads/composite/iterations-map.png" />
+				<span class="caption">Updated map wireframe</span>
+				<img src="/public/img/spreads/composite/iterations-faces.png" />
+				<span class="caption">Updated faces wireframe</span>
+			</div>
+			<div class="spread-section-right content">
+				<h2>Iterations</h2>
+				<p>
+					After testing the paper prototypes on numerous
+					people and getting their input, we decided to
+					simplify the interactions some more. Here, you
+					can see the wireframes of the designs we would
+					end up implementing for the final prototype.
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-technology-section">
+		<div class="section-content">
+			<div class="spread-technology-text">
+				<h2>The Technology</h2>
+				<p>
+					By far, the most unique part of this project is
+					the software architecture that's working in the
+					background. This is primarily due to the
+					complexity of the technology stack, which
+					features a Flask backend taht's constantly
+					interacting with the Instagram API and OpenCV,
+					and an Angular frontend that heavily utilizes
+					the Google Maps API's capabilities. The flow
+					below describes everything that happens
+					throughout one user story.
+				</p>
+			</div>
+			<div class="spread-technology-graphics progression">
+				<ul>
+					<li>
+						<i class="ionicons ion-map"></i>
+						<span>
+							The user drags the map to a new
+							location.
+						</span>
+					</li>
+					<li>
+						<div class="img-wrapper">
+							<img src="/public/img/spreads/composite/radius-icon.png" />
+						</div>
+						<span>
+							Google Maps calculates the new center
+							of the map as well as the radius from
+							that center shown in the map.
+						</span>
+					</li>
+					<li>
+						<i class="fa fa-instagram"></i>
+						<span>
+							Python uses that location information as
+							well as the date in the input field in
+							the interface to query the Instagram
+							API for the appropriate images.
+						</span>
+					</li>
+					<li>
+						<i class="fa fa-crop"></i>
+						<span>
+							OpenCV uses facial-recognition to crop
+							out every single face from each of
+							those raw images.
+						</span>
+					</li>
+					<li>
+						<i class="ionicons ion-ios-grid-view"></i>
+						<span>
+							Flask passes the resulting images of
+							individual faces back to Angular to
+							display to the user.
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-basic-section">
+		<div class="section-content">
+			<div class="spread-section-left content">
+				<h2>End Result</h2>
+				<p>
+					By the end of the quarter, our working
+					prototype of Composite was well on its way,
+					with each of the features (image cropping, maps
+					functionality, etc.) working individually but
+					only to a limited capacity when put together. I
+					intend to continue working on the project
+					myself towards the goal that we originally had
+					in mind.
+				</p>
+			</div>
+			<div class="spread-section-right media">
+			</div>
+		</div>
+	</section>
+
+
+	<section class="all-work">
+		<div class="section-content">
+			<button ng-click="state.go('dock.work')">
+				<i class="ionicons ion-chevron-left"></i>
+				<span>All work</span>
+			</button>
+		</div>
+	</section>
+
+
+</article>

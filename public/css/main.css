@@ -1,0 +1,1127 @@
+/****************
+ * FONT IMPORTS *
+ ****************/
+@font-face {
+  font-family: Big-John;
+  src: url("/public/fonts/BigJohn/big-john.otf"); }
+@font-face {
+  font-family: Chaparral-Pro-Regular;
+  src: url("/public/fonts/ChaparralPro/ChaparralPro-Regular.otf"); }
+@font-face {
+  font-family: Chaparral-Pro-Bold;
+  src: url("/public/fonts/ChaparralPro/ChaparralPro-Bold.otf"); }
+@font-face {
+  font-family: Chaparral-Pro-Italic;
+  src: url("/public/fonts/ChaparralPro/ChaparralPro-Italic.otf"); }
+@font-face {
+  font-family: Chaparral-Pro-Bold-It;
+  src: url("/public/fonts/ChaparralPro/ChaparralPro-BoldIt.otf"); }
+@font-face {
+  font-family: Chaparral-Pro-Light-It;
+  src: url("/public/fonts/ChaparralPro/ChaparralPro-LightIt.otf"); }
+/******************
+ * FONT VARIABLES *
+ ******************/
+main.dock div.content-wrapper {
+  width: 100%; }
+  main.dock div.content-wrapper article {
+    width: 100%; }
+    main.dock div.content-wrapper article div.article-content {
+      margin: 0 auto;
+      width: 85%; }
+      main.dock div.content-wrapper article div.article-content h1.article-header {
+        margin: 0;
+        padding: 60px 0 40px 0;
+        font-family: Big-John;
+        font-size: 2em;
+        color: #333; }
+      main.dock div.content-wrapper article div.article-content div.inner-content {
+        overflow: hidden; }
+
+article.spread section {
+  width: 100%; }
+  article.spread section div.section-content {
+    margin: 0 auto;
+    width: 85%;
+    overflow: auto; }
+    article.spread section div.section-content h2 {
+      margin-top: 0;
+      font-family: Big-John;
+      font-size: 1.8em; }
+    article.spread section div.section-content p {
+      line-height: 1.8em;
+      font-family: Chaparral-Pro-Regular;
+      font-size: 1.1em; }
+      article.spread section div.section-content p a {
+        text-decoration: none;
+        color: #4A90E2; }
+    article.spread section div.section-content span.caption {
+      display: block;
+      margin-top: 5px;
+      font-family: Chaparral-Pro-Regular;
+      font-size: 1em;
+      color: #888; }
+article.spread section.all-work {
+  margin: 40px 0 30px 0; }
+  article.spread section.all-work div.section-content button {
+    color: #ddd;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease; }
+    article.spread section.all-work div.section-content button i {
+      margin-right: 3px;
+      font-size: 2.0em;
+      cursor: pointer; }
+    article.spread section.all-work div.section-content button span {
+      position: relative;
+      top: -7px;
+      font-family: Chaparral-Pro-Regular;
+      font-weight: normal;
+      font-size: 1.1em;
+      cursor: pointer; }
+  article.spread section.all-work div.section-content button:hover {
+    color: #bbb; }
+article.spread section.spread-banner {
+  margin-bottom: 110px; }
+  article.spread section.spread-banner div.section-content div.spread-banner-left {
+    float: left;
+    padding: 20px 140px 0 140px;
+    width: calc(66% - 20px - 280px); }
+    article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-title {
+      padding: 30px 0 3px;
+      width: 100%;
+      text-align: center;
+      border-bottom: 1px solid #ccc; }
+      article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-title h1 {
+        margin: 0 0 7px 0;
+        font-family: Big-John;
+        font-size: 2.4em;
+        color: #333; }
+      article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-title h2 {
+        margin: 0;
+        margin-top: -10px;
+        font-family: Chaparral-Pro-Regular;
+        font-weight: normal;
+        font-size: 1.4em;
+        color: #666; }
+    article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-roles {
+      padding-top: 14px;
+      width: 100%;
+      text-align: center; }
+      article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-roles ul {
+        margin: 0;
+        padding: 0; }
+        article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-roles ul li {
+          display: inline-block;
+          margin-right: 5px;
+          margin-bottom: 8px;
+          padding: 7px 16px 4px 16px;
+          font-family: Chaparral-Pro-Regular;
+          font-weight: normal;
+          font-size: 0.8em;
+          color: #fff;
+          background-color: #ccc;
+          border-radius: 14px; }
+        article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-roles ul li:last-child {
+          margin-right: 0; }
+    article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-summary {
+      padding-top: 20px; }
+      article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-summary p {
+        line-height: 1.8em;
+        font-family: Chaparral-Pro-Regular;
+        font-weight: normal;
+        font-size: 1.1em;
+        color: #555;
+        text-align: center; }
+    article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-links {
+      padding-top: 15px;
+      width: 100%; }
+      article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-links ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center; }
+        article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-links ul li {
+          display: inline-block;
+          width: 170px; }
+          article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-links ul li a {
+            display: block;
+            padding: 10px 12px 8px 12px;
+            text-decoration: none;
+            font-family: Chaparral-Pro-Regular;
+            font-weight: normal;
+            font-size: 0.9em;
+            color: #fff; }
+            article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-links ul li a i {
+              margin-right: 4px; }
+        article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-links ul li.github {
+          background-color: #85D868;
+          border: 1px solid #5CA941; }
+        article.spread section.spread-banner div.section-content div.spread-banner-left div.spread-banner-links ul li.live-site {
+          margin-left: 10px;
+          background-color: #42ACDC;
+          border: 1px solid #3690B9; }
+  article.spread section.spread-banner div.section-content div.spread-banner-right {
+    float: right;
+    width: 33%; }
+    article.spread section.spread-banner div.section-content div.spread-banner-right img {
+      width: 100%; }
+article.spread section.spread-basic-section {
+  margin: 80px 0; }
+  article.spread section.spread-basic-section div.section-content h2 {
+    color: #444; }
+  article.spread section.spread-basic-section div.section-content p {
+    color: #555; }
+  article.spread section.spread-basic-section div.section-content div.spread-section-left {
+    float: left; }
+    article.spread section.spread-basic-section div.section-content div.spread-section-left span.caption {
+      text-align: left; }
+  article.spread section.spread-basic-section div.section-content div.spread-section-right {
+    float: right; }
+    article.spread section.spread-basic-section div.section-content div.spread-section-right span.caption {
+      text-align: right; }
+  article.spread section.spread-basic-section div.section-content div.content {
+    width: 55%; }
+  article.spread section.spread-basic-section div.section-content div.media {
+    width: calc(35% - 125px); }
+    article.spread section.spread-basic-section div.section-content div.media img {
+      width: 100%; }
+    article.spread section.spread-basic-section div.section-content div.media video {
+      width: 100%; }
+    article.spread section.spread-basic-section div.section-content div.media iframe {
+      width: 100%;
+      height: 250px; }
+article.spread section.spread-technology-section {
+  margin: 80px 0;
+  padding: 30px 0;
+  background-color: #333; }
+  article.spread section.spread-technology-section div.section-content div.spread-technology-text h2 {
+    color: #fff; }
+  article.spread section.spread-technology-section div.section-content div.spread-technology-text p {
+    color: #ddd; }
+  article.spread section.spread-technology-section div.section-content div.spread-technology-graphics {
+    padding-top: 30px; }
+    article.spread section.spread-technology-section div.section-content div.spread-technology-graphics ul {
+      margin: 0 auto;
+      padding: 0;
+      width: calc(100% - 100px);
+      list-style: none; }
+      article.spread section.spread-technology-section div.section-content div.spread-technology-graphics ul li {
+        display: inline-block;
+        text-align: center;
+        vertical-align: top; }
+        article.spread section.spread-technology-section div.section-content div.spread-technology-graphics ul li i {
+          display: block;
+          height: 200px;
+          font-size: 9em;
+          color: #fff; }
+        article.spread section.spread-technology-section div.section-content div.spread-technology-graphics ul li div.img-wrapper {
+          display: block;
+          width: 100%;
+          height: 200px; }
+          article.spread section.spread-technology-section div.section-content div.spread-technology-graphics ul li div.img-wrapper img {
+            width: 100%; }
+        article.spread section.spread-technology-section div.section-content div.spread-technology-graphics ul li span {
+          font-family: Chaparral-Pro-Regular;
+          font-size: 0.9em;
+          color: #ccc; }
+  article.spread section.spread-technology-section div.section-content div.spread-technology-graphics.progression ul li i, article.spread section.spread-technology-section div.section-content div.spread-technology-graphics.progression ul li div.img-wrapper, article.spread section.spread-technology-section div.section-content div.spread-technology-graphics.progression ul li span {
+    width: calc(100% - 80px); }
+  article.spread section.spread-technology-section div.section-content div.spread-technology-graphics.progression ul li span {
+    position: relative;
+    left: -10px;
+    display: inline-block;
+    vertical-align: top; }
+  article.spread section.spread-technology-section div.section-content div.spread-technology-graphics.progression ul li::after {
+    content: '\2192';
+    position: relative;
+    top: -140px;
+    font-size: 50px;
+    color: #555; }
+  article.spread section.spread-technology-section div.section-content div.spread-technology-graphics.progression ul li:last-child:after {
+    color: #333; }
+
+header {
+  width: 100%;
+  background-color: #333; }
+  header div.header-inner {
+    margin: 0 auto;
+    padding: 12px 0;
+    width: calc(100% - 30px);
+    overflow: auto; }
+    header div.header-inner div.header-left {
+      float: left; }
+      header div.header-inner div.header-left a {
+        display: block;
+        cursor: pointer; }
+        header div.header-inner div.header-left a img {
+          display: block;
+          width: 50px; }
+        @media (min-width: 800px) {
+          header div.header-inner div.header-left a img {
+            width: 60px; } }
+      header div.header-inner div.header-left a:hover {
+        opacity: 0.8; }
+    header div.header-inner div.header-nav i.burger {
+      float: right;
+      padding-top: 5px;
+      font-size: 3em;
+      color: #fff; }
+    header div.header-inner div.header-nav ul {
+      display: none;
+      margin: 0;
+      padding: 0; }
+      header div.header-inner div.header-nav ul li {
+        display: inline-block; }
+        header div.header-inner div.header-nav ul li a {
+          font-family: Chaparral-Pro-Regular;
+          font-weight: normal;
+          text-decoration: none;
+          outline: none;
+          cursor: pointer; }
+    @media (min-width: 800px) {
+      header div.header-inner div.header-nav i.burger {
+        display: none; }
+      header div.header-inner div.header-nav ul {
+        text-align: center;
+        display: block; }
+        header div.header-inner div.header-nav ul li {
+          width: 140px;
+          vertical-align: top; }
+          header div.header-inner div.header-nav ul li a {
+            display: block;
+            padding-top: 23px;
+            font-size: 1.1em;
+            line-height: 1em;
+            color: #666;
+            -webkit-transition: color 0.5s ease;
+            -moz-transition: color 0.5s ease;
+            -o-transition: color 0.5s ease;
+            transition: color 0.5s ease; }
+        header div.header-inner div.header-nav ul li:not(.active):hover a {
+          color: #aaa; }
+        header div.header-inner div.header-nav ul li.active a {
+          color: #fff; }
+        header div.header-inner div.header-nav ul li.active span {
+          padding-top: 3px;
+          font-family: Chaparral-Pro-Regular;
+          font-weight: normal;
+          font-size: 0.8em;
+          color: #888;
+          border-top: 1px solid #888; } }
+  @media (min-width: 800px) and (min-width: 1000px) {
+    header div.header-inner div.header-nav ul li {
+      width: 180px; } }
+
+  @media (min-width: 800px) {
+    header div.header-inner {
+      width: 85%; } }
+
+article.contact div.article-content div.inner-content p {
+  margin: 0 0 25px 0;
+  font-family: Chaparral-Pro-Regular;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #555; }
+article.contact div.article-content div.inner-content div.postcard {
+  width: 60%;
+  background-color: #F8F3E0;
+  border: 1px solid #E5DBB4; }
+  article.contact div.article-content div.inner-content div.postcard div.postcard-content {
+    padding: 25px 30px;
+    overflow: auto; }
+    article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-left {
+      float: left;
+      padding-right: 30px;
+      width: calc(60% - 30px);
+      border-right: 1px solid #E5DFC6; }
+      article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-left form input, article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-left form textarea {
+        display: block;
+        font-family: Chaparral-Pro-Italic;
+        font-size: 1.2em;
+        color: #333;
+        background-color: transparent;
+        outline: none; }
+      article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-left form input {
+        margin-bottom: 20px;
+        padding-bottom: 3px;
+        width: 80%;
+        border: none;
+        border-bottom: 1px solid #E5DFC6; }
+      article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-left form textarea {
+        margin-top: 40px;
+        padding: 10px;
+        width: calc(100% - 20px);
+        height: 100px;
+        border: 1px solid #E5DFC6;
+        resize: none; }
+      article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-left form button {
+        margin-top: 25px;
+        padding: 7px 8px 5px 8px;
+        background-color: #41BCB1;
+        border: none;
+        outline: none; }
+        article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-left form button i, article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-left form button span {
+          color: #fff; }
+        article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-left form button span {
+          font-family: Chaparral-Pro-Regular; }
+    article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-right {
+      float: right;
+      width: calc(40% - 50px); }
+      article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-right div.stamp-wrapper {
+        width: 100%;
+        overflow: auto; }
+        article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-right div.stamp-wrapper div.stamp {
+          float: right;
+          width: 80px;
+          height: 90px;
+          border: 5px solid #fff; }
+        article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-right div.stamp-wrapper ul {
+          clear: both;
+          float: right;
+          margin-top: 5px;
+          list-style: none; }
+          article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-right div.stamp-wrapper ul li {
+            display: inline-block;
+            margin-left: 3px;
+            width: 10px;
+            height: 10px;
+            border: 1px solid #cdc291;
+            border-radius: 50%;
+            cursor: pointer; }
+          article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-right div.stamp-wrapper ul li.active {
+            width: 13px;
+            height: 13px; }
+      article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-right div.other-info {
+        width: 100%;
+        text-align: center; }
+        article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-right div.other-info h5 {
+          margin: 25px 0 0 0;
+          font-family: Big-John;
+          font-size: 4em;
+          color: #E5DBB4; }
+        article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-right div.other-info ul {
+          margin: 0 0 20px 0;
+          padding: 0;
+          font-family: Chaparral-Pro-Bold;
+          color: #888;
+          list-style: none; }
+          article.contact div.article-content div.inner-content div.postcard div.postcard-content div.content-right div.other-info ul li {
+            margin-bottom: 6px; }
+
+main.splash article.splash div.article-content div.inner-content div.banner {
+  padding-top: 250px;
+  padding-bottom: 257px;
+  text-align: center;
+  color: #333; }
+  main.splash article.splash div.article-content div.inner-content div.banner h1 {
+    margin: 0;
+    font-family: Big-John;
+    font-size: 3em; }
+  main.splash article.splash div.article-content div.inner-content div.banner p {
+    margin: 20px auto 0;
+    width: 300px;
+    font-family: Chaparral-Pro-Regular;
+    font-size: 1.4em; }
+  main.splash article.splash div.article-content div.inner-content div.banner button {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border: none;
+    border-radius: 50%;
+    outline: none; }
+    main.splash article.splash div.article-content div.inner-content div.banner button span {
+      position: relative;
+      top: 15px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 10px 0 10px;
+      border-color: #fff transparent transparent transparent; }
+  main.splash article.splash div.article-content div.inner-content div.banner button:hover {
+    background-color: #fff;
+    border: 1px solid #333; }
+    main.splash article.splash div.article-content div.inner-content div.banner button:hover span {
+      border-color: #333 transparent transparent transparent; }
+
+article.story div.article-content div.inner-content {
+  overflow: auto; }
+  article.story div.article-content div.inner-content div.content-left {
+    float: left;
+    width: calc(60% - 70px); }
+    article.story div.article-content div.inner-content div.content-left ul {
+      margin: 40px 0 20px 0;
+      padding: 0;
+      list-style: none; }
+      article.story div.article-content div.inner-content div.content-left ul li {
+        display: inline-block;
+        margin-right: 15px; }
+        article.story div.article-content div.inner-content div.content-left ul li a {
+          font-size: 3.2em;
+          color: #4A90E2; }
+    article.story div.article-content div.inner-content div.content-left p {
+      margin: 0 0 25px 0;
+      font-family: Chaparral-Pro-Regular;
+      font-size: 1.1em;
+      line-height: 1.6em;
+      color: #555; }
+  article.story div.article-content div.inner-content div.content-right {
+    float: right;
+    margin: 20px 5px 0 0; }
+    article.story div.article-content div.inner-content div.content-right div.face {
+      position: relative;
+      margin: 0 auto 20px auto;
+      width: 250px;
+      height: 380px; }
+      article.story div.article-content div.inner-content div.content-right div.face div#hair {
+        position: relative;
+        z-index: 2; }
+        article.story div.article-content div.inner-content div.content-right div.face div#hair div.clump {
+          position: absolute; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div.clump div.bs1 {
+            box-shadow: inset -11px 0 0 0 #1a1a1a; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div.clump div.bs2 {
+            box-shadow: inset -11px 0 0 0 #252525; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div.clump div.bs3 {
+            box-shadow: inset -11px 0 0 0 #000; }
+        article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left {
+          left: 0; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair {
+            position: absolute;
+            width: 20px;
+            height: 40px;
+            border-radius: 50%;
+            -ms-transform: rotate(200deg);
+            -webkit-transform: rotate(200deg);
+            transform: rotate(200deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair-1 {
+            top: 35px;
+            left: 19px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair-2 {
+            top: 35px;
+            left: 27px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair-3 {
+            top: 55px;
+            left: 10px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair-4 {
+            top: 55px;
+            left: 20px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair-5 {
+            top: 75px;
+            left: 5px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair-6 {
+            top: 75px;
+            left: 15px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair-7 {
+            top: 95px;
+            left: 0px;
+            -ms-transform: rotate(195deg);
+            -webkit-transform: rotate(195deg);
+            transform: rotate(195deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair-8 {
+            top: 105px;
+            left: -2px;
+            -ms-transform: rotate(192deg);
+            -webkit-transform: rotate(192deg);
+            transform: rotate(192deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair-9 {
+            top: 112px;
+            left: -2px;
+            -ms-transform: rotate(192deg);
+            -webkit-transform: rotate(192deg);
+            transform: rotate(192deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-left div.hair-10 {
+            top: 120px;
+            left: -2px;
+            -ms-transform: rotate(192deg);
+            -webkit-transform: rotate(192deg);
+            transform: rotate(192deg); }
+        article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-right {
+          right: 0; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-right div.hair {
+            position: absolute;
+            width: 20px;
+            height: 40px;
+            border-radius: 50%;
+            -ms-transform: rotate(-20deg);
+            -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-right div.hair-1 {
+            top: 35px;
+            left: -34px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-right div.hair-2 {
+            top: 35px;
+            left: -44px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-right div.hair-3 {
+            top: 55px;
+            left: -27px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-right div.hair-4 {
+            top: 55px;
+            left: -37px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-right div.hair-5 {
+            top: 75px;
+            left: -22px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-right div.hair-6 {
+            top: 75px;
+            left: -32px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-right div.hair-7 {
+            top: 95px;
+            left: -17px;
+            -ms-transform: rotate(-15deg);
+            -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-right div.hair-8 {
+            top: 105px;
+            left: -15px;
+            -ms-transform: rotate(-12deg);
+            -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg); }
+        article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy {
+          top: -36px;
+          left: 75px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair {
+            position: absolute;
+            width: 65px;
+            height: 70px;
+            border-radius: 50%; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.t1 {
+            -ms-transform: rotate(60deg);
+            -webkit-transform: rotate(60deg);
+            transform: rotate(60deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.t2 {
+            -ms-transform: rotate(70deg);
+            -webkit-transform: rotate(70deg);
+            transform: rotate(70deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.t3 {
+            -ms-transform: rotate(80deg);
+            -webkit-transform: rotate(80deg);
+            transform: rotate(80deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-1 {
+            left: 15px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-2 {
+            left: 20px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-3 {
+            left: 25px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-4 {
+            left: 30px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-5 {
+            left: 35px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-6 {
+            left: 40px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-7 {
+            left: 45px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-8 {
+            left: 50px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-9 {
+            left: 55px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-10 {
+            left: 60px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-11 {
+            left: 65px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-pointy div.hair-12 {
+            left: 70px; }
+        article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left {
+          left: 20px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair {
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            border-radius: 50%; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.t1 {
+            -ms-transform: rotate(220deg);
+            -webkit-transform: rotate(220deg);
+            transform: rotate(220deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.t2 {
+            -ms-transform: rotate(230deg);
+            -webkit-transform: rotate(230deg);
+            transform: rotate(230deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.t3 {
+            -ms-transform: rotate(240deg);
+            -webkit-transform: rotate(240deg);
+            transform: rotate(240deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-1 {
+            top: 10px;
+            left: 17px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-2 {
+            top: 8px;
+            left: 26px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-3 {
+            top: -2px;
+            left: 35px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-4 {
+            top: -6px;
+            left: 45px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-5 {
+            top: -8px;
+            left: 55px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-6 {
+            top: -12px;
+            left: 65px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-7 {
+            top: -10px;
+            left: 75px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-8 {
+            top: -10px;
+            left: 85px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-9 {
+            top: -10px;
+            left: 95px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-10 {
+            top: 28px;
+            left: 19px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-11 {
+            top: 15px;
+            left: 33px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-12 {
+            top: 0;
+            left: 55px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-13 {
+            top: -5px;
+            left: 100px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-14 {
+            top: 5px;
+            left: 63px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-15 {
+            top: 5px;
+            left: 67px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-left div.hair-16 {
+            top: 0px;
+            left: 105px; }
+        article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-right {
+          right: 62px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-right div.hair {
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            border-radius: 50%; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-right div.t1 {
+            -ms-transform: rotate(310deg);
+            -webkit-transform: rotate(310deg);
+            transform: rotate(310deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-right div.t2 {
+            -ms-transform: rotate(320deg);
+            -webkit-transform: rotate(320deg);
+            transform: rotate(320deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-right div.t3 {
+            -ms-transform: rotate(330deg);
+            -webkit-transform: rotate(330deg);
+            transform: rotate(330deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-right div.hair-1 {
+            top: 10px;
+            left: 0; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-right div.hair-2 {
+            top: 21px;
+            left: -2px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-right div.hair-3 {
+            top: 40px;
+            left: 8px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-right div.hair-4 {
+            top: 50px;
+            left: 16px; }
+        article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under {
+          left: 30px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair {
+            position: absolute;
+            width: 30px;
+            height: 40px;
+            border-radius: 50%; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.t1 {
+            -ms-transform: rotate(270deg);
+            -webkit-transform: rotate(270deg);
+            transform: rotate(270deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.t2 {
+            -ms-transform: rotate(280deg);
+            -webkit-transform: rotate(280deg);
+            transform: rotate(280deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.t3 {
+            -ms-transform: rotate(290deg);
+            -webkit-transform: rotate(290deg);
+            transform: rotate(290deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-1 {
+            top: 30px;
+            left: 10px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-2 {
+            top: 36px;
+            left: 30px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-3 {
+            top: 33px;
+            left: 50px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-4 {
+            top: 30px;
+            left: 70px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-5 {
+            top: 36px;
+            left: 90px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-6 {
+            top: 33px;
+            left: 110px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-7 {
+            top: 30px;
+            left: 130px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-8 {
+            top: 36px;
+            left: 150px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-9 {
+            top: 25px;
+            left: 30px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-10 {
+            top: 22px;
+            left: 50px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-11 {
+            top: 28px;
+            left: 70px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-12 {
+            top: 25px;
+            left: 90px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-13 {
+            top: 22px;
+            left: 110px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-14 {
+            top: 28px;
+            left: 130px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-15 {
+            top: 25px;
+            left: 150px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-16 {
+            top: 14px;
+            left: 30px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-17 {
+            top: 18px;
+            left: 30px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-18 {
+            top: 27px;
+            left: 30px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-19 {
+            top: 18px;
+            left: 60px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-20 {
+            top: 27px;
+            left: 80px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-21 {
+            top: 20px;
+            left: 132px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-22 {
+            top: 33px;
+            left: 128px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#hair div#clump-top-normal-under div.hair-23 {
+            top: 37px;
+            left: 13px; }
+      article.story div.article-content div.inner-content div.content-right div.face div#head {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        height: 380px;
+        background-color: #D6AF92;
+        border-radius: 45% 45% 55% 55%; }
+        article.story div.article-content div.inner-content div.content-right div.face div#head div#eyebrows div.eyebrow {
+          position: absolute;
+          top: 135px;
+          width: 35px;
+          height: 60px;
+          box-shadow: inset -10px 0 0 0 #000; }
+        article.story div.article-content div.inner-content div.content-right div.face div#head div#eyebrows div#eyebrow-left {
+          left: 52px;
+          -ms-transform: rotate(-83deg);
+          -webkit-transform: rotate(-83deg);
+          transform: rotate(-83deg);
+          border-radius: 75% 55% 8% 60%; }
+        article.story div.article-content div.inner-content div.content-right div.face div#head div#eyebrows div#eyebrow-right {
+          right: 52px;
+          -ms-transform: rotate(-96deg);
+          -webkit-transform: rotate(-96deg);
+          transform: rotate(-96deg);
+          border-radius: 55% 8% 60% 75%; }
+        article.story div.article-content div.inner-content div.content-right div.face div#head div#eyes div.eye {
+          position: absolute;
+          top: 165px;
+          width: 50px;
+          height: 18px;
+          background-color: #f8f8f8;
+          box-shadow: 0 3px 0px 1px #C7A387;
+          overflow: hidden; }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#eyes div.eye div.eye-color-1 {
+            z-index: 0;
+            position: absolute;
+            top: -2px;
+            left: 12px;
+            width: 25px;
+            height: 25px;
+            background-color: #78542F;
+            border-radius: 50%;
+            box-shadow: inset 0px 6px 8px -1px rgba(84, 59, 33, 0.9); }
+            article.story div.article-content div.inner-content div.content-right div.face div#head div#eyes div.eye div.eye-color-1 div.eye-pupil {
+              z-index: 2;
+              position: absolute;
+              top: 7px;
+              left: 7px;
+              width: 12px;
+              height: 12px;
+              background-color: #111;
+              border-radius: 50%;
+              box-shadow: 0 0 10px 0 #a1703f; }
+        article.story div.article-content div.inner-content div.content-right div.face div#head div#eyes div#eye-left {
+          left: 50px;
+          -ms-transform: rotate(3deg);
+          -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+          border-radius: 50px 50px 10px 10px; }
+        article.story div.article-content div.inner-content div.content-right div.face div#head div#eyes div#eye-right {
+          right: 50px;
+          -ms-transform: rotate(-3deg);
+          -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+          border-radius: 50px 50px 10px 10px; }
+        article.story div.article-content div.inner-content div.content-right div.face div#head div#nose {
+          position: absolute;
+          top: 185px;
+          left: 112px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#nose div#nose-main {
+            width: 30px;
+            height: 80px;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0px 6px 4px -2px rgba(196, 136, 89, 0.68); }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#nose div.nostril {
+            position: absolute;
+            top: 52px;
+            width: 17px;
+            height: 17px;
+            border-radius: 0 0 20px 20px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#nose div#nose-left {
+            left: -10px;
+            box-shadow: -1px 4px 4px -2px #c48859, inset 0px -15px 17px -11px rgba(223, 179, 145, 0.68);
+            -ms-transform: rotate(33deg);
+            -webkit-transform: rotate(33deg);
+            transform: rotate(33deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#nose div#nose-right {
+            right: -10px;
+            box-shadow: 1px 4px 4px -2px #c48859, inset 0px -15px 17px -11px rgba(223, 179, 145, 0.68);
+            -ms-transform: rotate(-33deg);
+            -webkit-transform: rotate(-33deg);
+            transform: rotate(-33deg); }
+        article.story div.article-content div.inner-content div.content-right div.face div#head div#mouth {
+          position: relative;
+          top: 285px;
+          left: 70px; }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#mouth div#mouth-left-dimple {
+            position: absolute;
+            top: -40px;
+            left: -40px;
+            width: 8px;
+            height: 30px;
+            border-radius: 70%;
+            box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
+            -ms-transform: rotate(170deg);
+            -webkit-transform: rotate(170deg);
+            transform: rotate(170deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#mouth div#mouth-crease-1 {
+            position: absolute;
+            top: -29px;
+            left: -13px;
+            width: 35px;
+            height: 45px;
+            border-radius: 85%;
+            box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
+            -ms-transform: rotate(209deg);
+            -webkit-transform: rotate(209deg);
+            transform: rotate(209deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#mouth div#mouth-crease-2 {
+            position: absolute;
+            top: -7px;
+            left: -7px;
+            width: 15px;
+            height: 25px;
+            border-radius: 85%;
+            box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
+            -ms-transform: rotate(150deg);
+            -webkit-transform: rotate(150deg);
+            transform: rotate(150deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#mouth div.lip {
+            position: absolute;
+            background-color: #DE8877; }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#mouth div#mouth-upper-lip {
+            top: 0;
+            width: 90px;
+            height: 5px;
+            border-radius: 50% / 100%;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            -ms-transform: rotate(8deg);
+            -webkit-transform: rotate(8deg);
+            transform: rotate(8deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#mouth div#mouth-middle-smile {
+            position: absolute;
+            top: -52px;
+            left: 38px;
+            z-index: 1;
+            width: 20px;
+            height: 103px;
+            border-radius: 30%;
+            box-shadow: inset -2px 0 0 0 rgba(0, 0, 0, 0.2);
+            -ms-transform: rotate(98deg);
+            -webkit-transform: rotate(98deg);
+            transform: rotate(98deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#mouth div#mouth-lower-lip {
+            top: 5px;
+            left: 2px;
+            width: 90px;
+            height: 14px;
+            border-radius: 50% / 100%;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            -ms-transform: rotate(8deg);
+            -webkit-transform: rotate(8deg);
+            transform: rotate(8deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#mouth div#mouth-crease-3 {
+            position: absolute;
+            top: 10px;
+            left: 92px;
+            width: 15px;
+            height: 20px;
+            border-radius: 85%;
+            box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
+            -ms-transform: rotate(350deg);
+            -webkit-transform: rotate(350deg);
+            transform: rotate(350deg); }
+          article.story div.article-content div.inner-content div.content-right div.face div#head div#mouth div#mouth-right-dimple {
+            position: absolute;
+            top: -30px;
+            left: 140px;
+            width: 8px;
+            height: 37px;
+            border-radius: 70%;
+            box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
+            -ms-transform: rotate(7deg);
+            -webkit-transform: rotate(7deg);
+            transform: rotate(7deg); }
+
+article.work div.article-content div.inner-content ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  overflow: auto; }
+  article.work div.article-content div.inner-content ul li {
+    position: relative;
+    float: left;
+    margin: 0 15px 15px 0;
+    width: calc((100% - 75px) / 6);
+    overflow: hidden;
+    border: 1px solid #f5f5f5;
+    cursor: pointer; }
+    article.work div.article-content div.inner-content ul li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      text-decoration: none; }
+      article.work div.article-content div.inner-content ul li a img {
+        display: block;
+        width: 100%;
+        -webkit-transition: opacity 500ms ease;
+        -moz-transition: opacity 500ms ease;
+        -o-transition: opacity 500ms ease;
+        transition: opacity 500ms ease; }
+      article.work div.article-content div.inner-content ul li a div.text {
+        padding: 20px 20px 10px 20px;
+        width: calc(100% - 40px);
+        -webkit-transition: background-color 500ms ease;
+        -moz-transition: background-color 500ms ease;
+        -o-transition: background-color 500ms ease;
+        transition: background-color 500ms ease; }
+        article.work div.article-content div.inner-content ul li a div.text h2 {
+          margin: 0;
+          font-family: Big-John;
+          font-size: 1em;
+          color: #444; }
+        article.work div.article-content div.inner-content ul li a div.text h4 {
+          margin: 0 0 5px 0;
+          padding-top: 5px;
+          font-family: Chaparral-Pro-Regular;
+          font-size: 0.9em;
+          font-weight: normal;
+          color: #aaa; }
+        article.work div.article-content div.inner-content ul li a div.text ul {
+          margin: 10px 0 0 0;
+          padding: 7px 0 0 0;
+          border-top: 1px solid #ccc; }
+          article.work div.article-content div.inner-content ul li a div.text ul li {
+            display: inline-block;
+            margin: 0 4px 0 0;
+            padding: 6px 9px 3px 9px;
+            text-align: center;
+            font-family: Chaparral-Pro-Regular;
+            font-weight: normal;
+            font-size: 0.7em;
+            color: #fff;
+            background-color: #ccc;
+            border: none;
+            border-radius: 12px; }
+  article.work div.article-content div.inner-content ul li:not(.coming-soon):hover a img {
+    opacity: 0.8; }
+  article.work div.article-content div.inner-content ul li:not(.coming-soon):hover a div.text {
+    background-color: #f9f9f9; }
+  article.work div.article-content div.inner-content ul li.coming-soon {
+    border: 2px dashed #666; }
+    article.work div.article-content div.inner-content ul li.coming-soon a {
+      cursor: auto; }
+    article.work div.article-content div.inner-content ul li.coming-soon div.img {
+      text-align: center;
+      width: 100%;
+      height: 150px; }
+      article.work div.article-content div.inner-content ul li.coming-soon div.img i {
+        padding-top: 60px;
+        font-size: 4em;
+        color: #ddd; }
+
+article.spread.rj section.spread-technology-section div.section-content div.spread-technology-graphics ul li {
+  width: calc((100% / 4) - 10px); }
+
+article.spread.composite section.spread-technology-section div.section-content div.spread-technology-graphics ul li {
+  width: calc((100% / 5) - 10px); }
+
+article.spread.noahAndChristina section.spread-technology-section div.section-content div.spread-technology-graphics ul li {
+  width: calc((100% / 4) - 10px); }
+
+article.spread.theBook section.spread-technology-section div.section-content div.spread-technology-graphics ul li {
+  width: calc((100% / 4) - 10px); }
+  article.spread.theBook section.spread-technology-section div.section-content div.spread-technology-graphics ul li div.img-wrapper img {
+    width: 60% !important; }
+
+body {
+  width: calc(100% - 16px);
+  border: 8px solid #333; }
+
+div.main-wrapper.ng-enter, div.main-wrapper.ng-leave {
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out; }
+
+div.main-wrapper.ng-enter {
+  -webkit-transform: translate3d(0, 100%, 0);
+  -moz-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0); }
+
+div.main-wrapper.ng-enter-active {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+div.main-wrapper.ng-leave {
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0); }
+
+div.main-wrapper.ng-leave-active {
+  -webkit-transform: translate3d(0, -200%, 0);
+  -moz-transform: translate3d(0, -200%, 0);
+  transform: translate3d(0, -200%, 0); }
+
+/*# sourceMappingURL=main.css.map */

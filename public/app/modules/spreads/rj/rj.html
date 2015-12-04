@@ -1,0 +1,178 @@
+<ng-include src="'/public/app/modules/header/header.html'"
+            ng-controller="HeaderCtrl"></ng-include>
+
+
+<article class="spread rj">
+
+
+	<section class="all-work">
+		<div class="section-content">
+			<button ng-click="state.go('dock.work')">
+				<i class="ionicons ion-chevron-left"></i>
+				<span>All work</span>
+			</button>
+		</div>
+	</section>
+
+
+	<section class="spread-banner">
+		<div class="section-content">
+			<div class="spread-banner-left">
+				<div class="spread-banner-title">
+					<h1>RJ</h1>
+					<h2>A robotic, natural interaction display</h2>
+				</div>
+				<div class="spread-banner-roles">
+					<ul>
+						<li>Software Development</li>
+						<li>UX Design</li>
+					</ul>
+				</div>
+				<div class="spread-banner-summary">
+					<p>
+						Developed throughout the summer of 2013, RJ is
+						an interactive robotic display that lets people
+						control a 6-foot-tall robot using their own
+						body movements.
+					</p>
+				</div>
+				<div class="spread-banner-links">
+					<ul>
+						<li class="github">
+							<a target="_blank" href="https://github.com/NxRLab/nxr_baxter">
+								<i class="fa fa-github"></i>
+								<span>GitHub Repository</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="spread-banner-right">
+				<img src="/public/img/spreads/rj/banner.png" />
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-basic-section">
+		<div class="section-content">
+			<div class="spread-section-left content">
+				<h2>Background</h2>
+				<p>
+					When the Neuroscience and Robotics Lab (NxR)
+					at Nortwhestern University purchased Baxter, a
+					humanoid robot built by Rethink Robotics, they
+					faced the challenge of developing a demo to captivate
+					and engage the Northwestern community. After
+					multiple brainstorming sessions and code
+					sprints, we decided to use natural interaction
+					technology to create that display. Here's a
+					video of the early stages of RJ when I took on
+					the project back in June of 2013.
+				</p>
+			</div>
+			<div class="spread-section-right media">
+				<video controls>
+					<source src="/public/img/spreads/rj/background.MOV" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<span class="caption">The early stages of RJ</span>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-technology-section">
+		<div class="section-content">
+			<div class="spread-technology-text">
+				<h2>The Technology</h2>
+				<p>
+					One of my primary focuses when working on RJ
+					was to mask the software architecture's
+					complexity so that users wouldn't have to worry
+					about what was actually going on in the
+					background. The software stack uses Python,
+					C++, the Point Cloud Library (PCL), and the
+					Robot Operating System (ROS).
+				</p>
+			</div>
+			<div class="spread-technology-graphics progression">
+				<ul>
+					<li>
+						<i class="ionicons ion-ios-body"></i>
+						<span>
+							People make wild gestures.
+						</span>
+					</li>
+					<li>
+						<div class="img-wrapper">
+							<img src="/public/img/spreads/rj/sensor-icon.png" />
+						</div>
+						<span>
+							The Asus Xtion Pro uses infrared and
+							depth sesnsors to convert the gestures
+							to a matrix of points in space.
+						</span>
+					</li>
+					<li>
+						<i class="fa fa-desktop"></i>
+						<span>
+							ROS nodes runnning on a desktop machine
+							convert those points into vectors
+							representing the person's body parts.
+						</span>
+					</li>
+					<li>
+						<div class="img-wrapper">
+							<img src="/public/img/spreads/rj/rj-icon.png" />
+						</div>
+						<span>
+							RJ folows the positions on those vectors
+							while also making sure to avoid
+							collisions with any objects in his
+							vicinity.
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-basic-section">
+		<div class="section-content">
+			<div class="spread-section-left content">
+				<h2>End Result</h2>
+				<p>
+					RJ was finally put on display in the Willens
+					Lounge of the Technological Institute at
+					Northwestern University in the Fall of 2013.
+					Two years later, he is still a popular
+					attraction for patrons of the engineering
+					building as well as university visitors year
+					round. Below is a featurette filmed by Rethink
+					Robotics at Nortwhestern once the project was
+					complete.
+				</p>
+			</div>
+			<div class="spread-section-right media">
+				<iframe
+					src="https://www.youtube.com/v/Z_NzeGYbZH4">
+				</iframe>
+				<span class="caption">Credits to Rethink Robotics</span>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="all-work">
+		<div class="section-content">
+			<button ng-click="state.go('dock.work')">
+				<i class="ionicons ion-chevron-left"></i>
+				<span>All work</span>
+			</button>
+		</div>
+	</section>
+
+
+</article>

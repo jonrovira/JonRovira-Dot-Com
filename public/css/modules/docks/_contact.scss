@@ -1,0 +1,132 @@
+article.contact {
+
+	div.article-content {
+
+		div.inner-content {
+
+			p {
+				margin: 0 0 25px 0;
+				font-family: $text-font-1;
+				font-size: 1.1em;
+				line-height: 1.6em;
+				color: #555;
+			}
+			div.postcard {
+				width: 60%;
+				background-color: #F8F3E0;
+				border: 1px solid #E5DBB4;
+
+				div.postcard-content {
+					padding: 25px 30px;
+					overflow: auto;
+
+					div.content-left {
+						float: left;
+						padding-right: 30px;
+						width: calc(60% - 30px);
+						border-right: 1px solid #E5DFC6;
+
+						form {
+
+							input, textarea {
+								display: block;
+								font-family: $text-font-2;
+								font-size: 1.2em;
+								color: #333;
+								background-color: transparent;
+								outline: none;
+							}
+							input {
+								margin-bottom: 20px;
+								padding-bottom: 3px;
+								width: 80%;
+								border: none;
+								border-bottom: 1px solid #E5DFC6;
+							}
+							textarea {
+								margin-top: 40px;
+								padding: 10px;
+								width: calc(100% - 20px);
+								height: 100px;
+								border: 1px solid #E5DFC6;
+								resize: none;
+							}
+							button {
+								margin-top: 25px;
+								padding: 7px 8px 5px 8px;
+								background-color: #41BCB1;
+								border: none;
+								outline: none;
+
+								i, span {
+									color: #fff;
+								}
+								span {
+									font-family: $text-font-1;
+								}
+							}
+						}
+					}
+					div.content-right {
+						float: right;
+						width: calc(40% - 50px);
+
+						div.stamp-wrapper {
+							width: 100%;
+							overflow: auto;
+
+							div.stamp {
+								float: right;
+								width: 80px;
+								height: 90px;
+								border: 5px solid #fff;
+							}
+							ul {
+								clear: both;
+								float: right;
+								margin-top: 5px;
+								list-style: none;
+
+								li {
+									display: inline-block;
+									margin-left: 3px;
+									width: 10px;
+									height: 10px;
+									border: 1px solid darken(#E5DFC6, 15%);
+									border-radius: 50%;
+									cursor: pointer;
+								}
+								li.active {
+									width: 13px;
+									height: 13px;
+								}
+							}
+						}
+						div.other-info {
+							width: 100%;
+							text-align: center;
+
+							h5 {
+								margin: 25px 0 0 0;
+								font-family: $header-font-1;
+								font-size: 4em;
+								color: #E5DBB4;
+							}
+							ul {
+								margin: 0 0 20px 0;
+								padding: 0;
+								font-family: $text-font-3;
+								color: #888;
+								list-style: none;
+
+								li {
+									margin-bottom: 6px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

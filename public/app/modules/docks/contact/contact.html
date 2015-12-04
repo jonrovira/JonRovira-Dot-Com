@@ -1,0 +1,53 @@
+<article class="contact">
+
+	<div class="article-content">
+
+		<h1 class="article-header">Say Hello</h1>
+		<div class="inner-content">
+			<p>
+				Whether it's to ask a question, discuss
+				ideas, or just have a conversation, I'd
+				love to hear from you.
+			</p>
+			<div class="postcard">
+				<div class="postcard-content">
+					<div class="content-left">
+						<form>
+							<input type="text" placeholder="Name" spellcheck="false" />
+							<input type="text" placeholder="Email" spellcheck="false" />
+							<textarea placeholder="Your message" spellcheck="false"></textarea>
+							<button>
+								<i class="fa fa-paper-plane-o"></i>
+								<span>Send</span>
+							</button>
+						</form>
+					</div>
+					<div class="content-right">
+						<div class="stamp-wrapper">
+							<div class="stamp"
+							     ng-style="{'background-color': colors[activeIndex]}">
+							</div>
+							<ul>
+								<li ng-repeat="color in colors"
+								    ng-style="{'background-color': color}"
+								    ng-class="{'active': $index == activeIndex}"
+								    ng-click="changeColor($index)"></li>
+							</ul>
+						</div>
+						<div class="other-info">
+							<h5>OR</h5>
+							<ul>
+								<li>jonrovira@gmail.com</li>
+								<li>(719) 963 - 4882</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</article>
+
+<ng-include src="'/public/app/modules/header/header.html'" ng-controller="HeaderCtrl"></ng-include>

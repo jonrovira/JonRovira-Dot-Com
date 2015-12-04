@@ -1,0 +1,25 @@
+article.spread.theBook {
+
+	section.spread-technology-section {
+
+		div.section-content {
+
+			div.spread-technology-graphics {
+
+				ul {
+
+					li {
+						width: calc((100% / 4) - 10px);
+
+						div.img-wrapper {
+
+							img {
+								width: 60% !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+<header>
+	<div class="header-inner">
+		<div class="header-left">
+			<a ng-click="state.go('splash')">
+				<img src="/public/img/logo.png" />
+			</a>
+		</div>
+		<div class="header-nav">
+			<i class="burger ionicons ion-navicon"></i>
+			<ul>
+				<li ng-class="{ active : state.includes('dock.work') || state.includes('spread') }">
+					<a ng-click="state.go('dock.work')">work</a>
+					<span ng-if="state.includes('spread.rj')">RJ</span>
+					<span ng-if="state.includes('spread.composite')">Composite</span>
+					<span ng-if="state.includes('spread.noahAndChristina')">Noah And Christina</span>
+					<span ng-if="state.includes('spread.theBook')">The Book</span>
+				</li>
+				<li ng-class="{ active : state.includes('dock.story') }">
+					<a ng-click="state.go('dock.story')">story</a>
+				</li>
+				<li ng-class="{ active : state.includes('dock.contact') }">
+					<a ng-click="state.go('dock.contact')">contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>

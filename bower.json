@@ -1,0 +1,28 @@
+{
+  "name": "jon-rovira-portfolio",
+  "description": "Personal portfolio",
+  "main": "",
+  "authors": [
+    "Jon Rovira <jonathanrovira2016@u.northwestern.edu>"
+  ],
+  "license": "No",
+  "moduleType": [],
+  "homepage": "www.jonrovira.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "components-font-awesome": "~4.4.0",
+    "Ionicons": "ionicons#~2.0.1",
+    "angular-animate": "~1.4.8",
+    "jquery": "~2.1.4",
+    "ngSmoothScroll": "~2.0.0"
+  }
+}

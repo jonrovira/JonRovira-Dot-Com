@@ -1,0 +1,441 @@
+article.story {
+
+	div.article-content {
+
+		div.inner-content {
+			overflow: auto;
+
+			div.content-left {
+				float: left;
+				width: calc(60% - 70px);
+
+				ul {
+					margin: 40px 0 20px 0;
+					padding: 0;
+					list-style: none;
+
+					li {
+						display: inline-block;
+						margin-right: 15px;
+
+						a {
+							font-size: 3.2em;
+							color: #4A90E2;
+						}
+					}
+				}
+				p {
+					margin: 0 0 25px 0;
+					font-family: $text-font-1;
+					font-size: 1.1em;
+					line-height: 1.6em;
+					color: #555;
+				}
+			}
+			div.content-right {
+				float: right;
+				margin: 20px 5px 0 0;
+
+				div.face {
+					position: relative;
+					margin: 0 auto 20px auto;
+					width: 250px;
+					height: 380px;
+
+					div#hair {
+						position: relative;
+						z-index: 2;
+
+						div.clump {
+							position: absolute;
+
+							div.bs1 {
+								box-shadow: inset -11px 0 0 0 #1a1a1a;
+							}
+							div.bs2 {
+								box-shadow: inset -11px 0 0 0 #252525;
+							}
+							div.bs3 {
+								box-shadow: inset -11px 0 0 0 #000;
+							}
+						}
+						div#clump-left {
+							left: 0;
+
+							div.hair {
+								position: absolute;
+								width: 20px;
+								height: 40px;
+								border-radius: 50%;
+								-ms-transform: rotate(200deg);
+								-webkit-transform: rotate(200deg);
+								transform: rotate(200deg);
+							}
+							div.hair-1 { top: 35px; left: 19px; }
+							div.hair-2 { top: 35px; left: 27px; }
+							div.hair-3 { top: 55px; left: 10px; }
+							div.hair-4 { top: 55px; left: 20px; }
+							div.hair-5 { top: 75px; left: 5px; }
+							div.hair-6 { top: 75px; left: 15px; }
+							div.hair-7 { top: 95px; left: 0px; -ms-transform: rotate(195deg); -webkit-transform: rotate(195deg); transform: rotate(195deg); }
+							div.hair-8 { top: 105px; left: -2px; -ms-transform: rotate(192deg); -webkit-transform: rotate(192deg); transform: rotate(192deg); }
+							div.hair-9 { top: 112px; left: -2px; -ms-transform: rotate(192deg); -webkit-transform: rotate(192deg); transform: rotate(192deg); }
+							div.hair-10 { top: 120px; left: -2px; -ms-transform: rotate(192deg); -webkit-transform: rotate(192deg); transform: rotate(192deg); }
+						}
+						div#clump-right {
+							right: 0;
+
+							div.hair {
+								position: absolute;
+								width: 20px;
+								height: 40px;
+								border-radius: 50%;
+								-ms-transform: rotate(-20deg);
+								-webkit-transform: rotate(-20deg);
+								transform: rotate(-20deg);
+							}
+							div.hair-1 { top: 35px; left: -34px; }
+							div.hair-2 { top: 35px; left: -44px; }
+							div.hair-3 { top: 55px; left: -27px; }
+							div.hair-4 { top: 55px; left: -37px; }
+							div.hair-5 { top: 75px; left: -22px; }
+							div.hair-6 { top: 75px; left: -32px; }
+							div.hair-7 { top: 95px; left: -17px; -ms-transform: rotate(-15deg); -webkit-transform: rotate(-15deg); transform: rotate(-15deg); }
+							div.hair-8 { top: 105px; left: -15px; -ms-transform: rotate(-12deg); -webkit-transform: rotate(-12deg); transform: rotate(-12deg); }
+						}
+						div#clump-top-pointy {
+							top: -36px;
+							left: 75px;
+
+							div.hair {
+								position: absolute;
+								width: 65px;
+								height: 70px;
+								border-radius: 50%;
+							}
+							div.t1 { -ms-transform: rotate(60deg); -webkit-transform: rotate(60deg); transform: rotate(60deg); }
+							div.t2 { -ms-transform: rotate(70deg); -webkit-transform: rotate(70deg); transform: rotate(70deg); }
+							div.t3 { -ms-transform: rotate(80deg); -webkit-transform: rotate(80deg); transform: rotate(80deg); }
+							div.hair-1  { left: 15px; }
+							div.hair-2  { left: 20px; }
+							div.hair-3  { left: 25px; }
+							div.hair-4  { left: 30px; }
+							div.hair-5  { left: 35px; }
+							div.hair-6  { left: 40px; }
+							div.hair-7 { left: 45px; }
+							div.hair-8 { left: 50px; }
+							div.hair-9 { left: 55px; }
+							div.hair-10 { left: 60px; }
+							div.hair-11 { left: 65px; }
+							div.hair-12 { left: 70px; }
+						}
+						div#clump-top-normal-left {
+							left: 20px;
+
+							div.hair {
+								position: absolute;
+								width: 30px;
+								height: 40px;
+								border-radius: 50%;
+							}
+							div.t1 { -ms-transform: rotate(220deg); -webkit-transform: rotate(220deg); transform: rotate(220deg); }
+							div.t2 { -ms-transform: rotate(230deg); -webkit-transform: rotate(230deg); transform: rotate(230deg); }
+							div.t3 { -ms-transform: rotate(240deg); -webkit-transform: rotate(240deg); transform: rotate(240deg); }
+							div.hair-1  { top: 10px; left: 17px; }
+							div.hair-2  { top: 8px; left: 26px; }
+							div.hair-3  { top: -2px; left: 35px; }
+							div.hair-4  { top: -6px; left: 45px; }
+							div.hair-5  { top: -8px; left: 55px; }
+							div.hair-6  { top: -12px; left: 65px; }
+							div.hair-7  { top: -10px; left: 75px; }
+							div.hair-8  { top: -10px; left: 85px; }
+							div.hair-9  { top: -10px; left: 95px; }
+							div.hair-10 { top: 28px; left: 19px; }
+							div.hair-11 { top: 15px; left: 33px; }
+							div.hair-12 { top: 0; left: 55px; }
+							div.hair-13 { top: -5px; left: 100px; }
+							div.hair-14 { top: 5px; left: 63px; }
+							div.hair-15 { top: 5px; left: 67px; }
+							div.hair-16 { top: 0px; left: 105px; }
+						}
+						div#clump-top-normal-right {
+							right: 62px;
+
+							div.hair {
+								position: absolute;
+								width: 30px;
+								height: 40px;
+								border-radius: 50%;
+							}
+							div.t1 { -ms-transform: rotate(310deg); -webkit-transform: rotate(310deg); transform: rotate(310deg); }
+							div.t2 { -ms-transform: rotate(320deg); -webkit-transform: rotate(320deg); transform: rotate(320deg); }
+							div.t3 { -ms-transform: rotate(330deg); -webkit-transform: rotate(330deg); transform: rotate(330deg); }
+							div.hair-1  { top: 10px; left: 0; }
+							div.hair-2  { top: 21px; left: -2px; }
+							div.hair-3  { top: 40px; left: 8px; }
+							div.hair-4  { top: 50px; left: 16px; }
+						}
+						div#clump-top-normal-under {
+							left: 30px;
+
+							div.hair {
+								position: absolute;
+								width: 30px;
+								height: 40px;
+								border-radius: 50%;
+							}
+							div.t1 { -ms-transform: rotate(270deg); -webkit-transform: rotate(270deg); transform: rotate(270deg); }
+							div.t2 { -ms-transform: rotate(280deg); -webkit-transform: rotate(280deg); transform: rotate(280deg); }
+							div.t3 { -ms-transform: rotate(290deg); -webkit-transform: rotate(290deg); transform: rotate(290deg); }
+							div.hair-1  { top: 30px; left: 10px; }
+							div.hair-2  { top: 36px; left: 30px; }
+							div.hair-3  { top: 33px; left: 50px; }
+							div.hair-4  { top: 30px; left: 70px; }
+							div.hair-5  { top: 36px; left: 90px; }
+							div.hair-6  { top: 33px; left: 110px; }
+							div.hair-7  { top: 30px; left: 130px; }
+							div.hair-8  { top: 36px; left: 150px; }
+							div.hair-9  { top: 25px; left: 30px; }
+							div.hair-10  { top: 22px; left: 50px; }
+							div.hair-11  { top: 28px; left: 70px; }
+							div.hair-12  { top: 25px; left: 90px; }
+							div.hair-13  { top: 22px; left: 110px; }
+							div.hair-14  { top: 28px; left: 130px; }
+							div.hair-15 { top: 25px; left: 150px; }
+							div.hair-16 { top: 14px; left: 30px; }
+							div.hair-17 { top: 18px; left: 30px; }
+							div.hair-18 { top: 27px; left: 30px; }
+							div.hair-19 { top: 18px; left: 60px; }
+							div.hair-20 { top: 27px; left: 80px; }
+							div.hair-21 { top: 20px; left: 132px; }
+							div.hair-22 { top: 33px; left: 128px; }
+							div.hair-23 { top: 37px; left: 13px; }
+						}
+					}
+					div#head {
+						z-index: 1;
+						position: absolute;
+						width: 250px;
+						height: 380px;
+						background-color: #D6AF92; // #E1B899;
+						border-radius: 45% 45% 55% 55%;
+
+						div#eyebrows {
+
+							div.eyebrow {
+								position: absolute;
+								top: 135px;
+								width: 35px;
+								height: 60px;
+								box-shadow: inset -10px 0 0 0 #000;
+							}
+							div#eyebrow-left {
+								left: 52px;
+								-ms-transform: rotate(-83deg);
+								-webkit-transform: rotate(-83deg);
+								transform: rotate(-83deg);
+								border-radius: 75% 55% 8% 60%;
+							}
+							div#eyebrow-right {
+								right: 52px;
+								-ms-transform: rotate(-96deg);
+								-webkit-transform: rotate(-96deg);
+								transform: rotate(-96deg);
+								border-radius: 55% 8% 60% 75%;
+							}
+						}
+						div#eyes {
+							div.eye {
+								position: absolute;
+								top: 165px;
+								width: 50px;
+								height: 18px;
+								background-color: #f8f8f8;
+								box-shadow: 0 3px 0px 1px #C7A387;
+								overflow: hidden;
+
+								div.eye-color-1 {
+									z-index: 0;
+									position: absolute;
+									top: -2px;
+									left: 12px;
+									width: 25px;
+									height: 25px;
+									background-color: #78542F;
+									border-radius: 50%;
+									box-shadow: inset 0px 6px 8px -1px rgba(84, 59, 33, 0.9);
+
+									div.eye-pupil {
+										z-index: 2;
+										position: absolute;
+										top: 7px;
+										left: 7px;
+										width: 12px;
+										height: 12px;
+										background-color: #111;
+										border-radius: 50%;
+										box-shadow: 0 0 10px 0 rgb(161, 112, 63);
+									}
+								}
+							}
+							div#eye-left {
+								left: 50px;
+								-ms-transform: rotate(3deg);
+								-webkit-transform: rotate(3deg);
+								transform: rotate(3deg);
+								border-radius: 50px 50px 10px 10px;
+							}
+							div#eye-right {
+								right: 50px;
+								-ms-transform: rotate(-3deg);
+								-webkit-transform: rotate(-3deg);
+								transform: rotate(-3deg);
+								border-radius: 50px 50px 10px 10px;
+							}
+						}
+						div#nose {
+							position: absolute;
+							top: 185px;
+							left: 112px;
+
+							div#nose-main {
+								width: 30px;
+								height: 80px;
+								border-radius: 0 0 15px 15px;
+								box-shadow: 0px 6px 4px -2px rgba(196, 136, 89, 0.68);
+							}
+							div.nostril {
+								position: absolute;
+								top: 52px;
+								width: 17px;
+								height: 17px;
+								border-radius: 0 0 20px 20px;
+							}
+							div#nose-left {
+								left: -10px;
+								box-shadow: -1px 4px 4px -2px rgba(196, 136, 89, 1), inset 0px -15px 17px -11px rgba(223, 179, 145, 0.68);
+								-ms-transform: rotate(33deg);
+								-webkit-transform: rotate(33deg);
+								transform: rotate(33deg);
+							}
+							div#nose-right {
+								right: -10px;
+								box-shadow: 1px 4px 4px -2px rgba(196, 136, 89, 1), inset 0px -15px 17px -11px rgba(223, 179, 145, 0.68);
+								-ms-transform: rotate(-33deg);
+								-webkit-transform: rotate(-33deg);
+								transform: rotate(-33deg);
+							}
+						}
+						div#mouth {
+							position: relative;
+							top: 285px;
+							left: 70px;
+
+							div#mouth-left-dimple {
+								position: absolute;
+								top: -40px;
+								left: -40px;
+								width: 8px;
+								height: 30px;
+								border-radius: 70%;
+								box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
+								-ms-transform: rotate(170deg);
+								-webkit-transform: rotate(170deg);
+								transform: rotate(170deg);
+							}
+							div#mouth-crease-1 {
+								position: absolute;
+								top: -29px;
+								left: -13px;
+								width: 35px;
+								height: 45px;
+								border-radius: 85%;
+								box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
+								-ms-transform: rotate(209deg);
+								-webkit-transform: rotate(209deg);
+								transform: rotate(209deg);
+							}
+							div#mouth-crease-2 {
+								position: absolute;
+								top: -7px;
+								left: -7px;
+								width: 15px;
+								height: 25px;
+								border-radius: 85%;
+								box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
+								-ms-transform: rotate(150deg);
+								-webkit-transform: rotate(150deg);
+								transform: rotate(150deg);
+							}
+							div.lip {
+								position: absolute;
+								background-color: #DE8877;
+							}
+							div#mouth-upper-lip {
+								top: 0;
+								width: 90px;
+								height: 5px;
+								border-radius: 50% / 100%;
+								border-bottom-left-radius: 0;
+								border-bottom-right-radius: 0;
+								-ms-transform: rotate(8deg);
+								-webkit-transform: rotate(8deg);
+								transform: rotate(8deg);
+
+							}
+							div#mouth-middle-smile {
+								position: absolute;
+								top: -52px;
+								left: 38px;
+								z-index: 1;
+								width: 20px;
+								height: 103px;
+								border-radius: 30%;
+								box-shadow: inset -2px 0 0 0 rgba(0, 0, 0, 0.2);
+								-ms-transform: rotate(98deg);
+								-webkit-transform: rotate(98deg);
+								transform: rotate(98deg);
+							}
+							div#mouth-lower-lip {
+								top: 5px;
+								left: 2px;
+								width: 90px;
+								height: 14px;
+								border-radius: 50% / 100%;
+								border-top-left-radius: 0;
+								border-top-right-radius: 0;
+								-ms-transform: rotate(8deg);
+								-webkit-transform: rotate(8deg);
+								transform: rotate(8deg);
+							}
+							div#mouth-crease-3 {
+								position: absolute;
+								top: 10px;
+								left: 92px;
+								width: 15px;
+								height: 20px;
+								border-radius: 85%;
+								box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
+								-ms-transform: rotate(350deg);
+								-webkit-transform: rotate(350deg);
+								transform: rotate(350deg);
+							}
+							div#mouth-right-dimple {
+								position: absolute;
+								top: -30px;
+								left: 140px;
+								width: 8px;
+								height: 37px;
+								border-radius: 70%;
+								box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.05);
+								-ms-transform: rotate(7deg);
+								-webkit-transform: rotate(7deg);
+								transform: rotate(7deg);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

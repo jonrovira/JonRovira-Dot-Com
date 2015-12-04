@@ -1,0 +1,4 @@
+node_modules/*
+public/css/.sass-cache/*
+public/css/main.css.map
+public/bower_components/*

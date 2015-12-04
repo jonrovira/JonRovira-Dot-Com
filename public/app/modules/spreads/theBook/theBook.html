@@ -1,0 +1,221 @@
+<ng-include src="'/public/app/modules/header/header.html'"
+            ng-controller="HeaderCtrl"></ng-include>
+
+
+<article class="spread theBook">
+
+
+	<section class="all-work">
+		<div class="section-content">
+			<button ng-click="state.go('dock.work')">
+				<i class="ionicons ion-chevron-left"></i>
+				<span>All work</span>
+			</button>
+		</div>
+	</section>
+
+
+	<section class="spread-banner">
+		<div class="section-content">
+			<div class="spread-banner-left">
+				<div class="spread-banner-title">
+					<h1>The Book</h1>
+					<h2>A fraternity recruitment platform</h2>
+				</div>
+				<div class="spread-banner-roles">
+					<ul>
+						<li>Front-End Development</li>
+						<li>UI Design</li>
+						<li>UX Design</li>
+					</ul>
+				</div>
+				<div class="spread-banner-summary">
+					<p>
+						Replacing an outdated system, The Book is a
+						tool used to consolidate potential new member
+						(PNM) information and streamline the complex
+						fraternity recruitment process.
+					</p>
+				</div>
+				<div class="spread-banner-links">
+					<ul>
+						<li class="github">
+							<a target="_blank" href="https://github.com/Finnja/thebook">
+								<i class="fa fa-github"></i>
+								<span>GitHub Repository</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="spread-banner-right">
+				<img src="/public/img/spreads/theBook/banner.png" />
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-basic-section">
+		<div class="section-content">
+			<div class="spread-section-left content">
+				<h2>Background</h2>
+				<p>
+					Every year, a fraternity chapter meets upwards
+					of a couple hundred PNMs throughout the
+					recruitment season. With a chapter membership
+					of over a hundred brothers, keeping track of
+					all the interactions and impressions that take
+					place throughout that perios is valuable, yet
+					very difficult. With the existing system repleet
+					with glitches, usability issues, and limited
+					capabilities, the Sigma Chi chapter at
+					Northwestern needed an upgrade, and over the
+					summer of 2013, Alex Kaldjian and I took it
+					upon ourselves to develop a new platform.
+				</p>
+			</div>
+			<div class="spread-section-right media">
+				<img src="/public/img/spreads/theBook/background.png" />
+				<span class="caption">Splash page for browsing PNMs</span>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-technology-section">
+		<div class="section-content">
+			<div class="spread-technology-text">
+				<h2>The Technology</h2>
+				<p>
+					While Alex took on the backend development
+					using Ruby on Rails, I put together a
+					lightweight front-end using the following
+					tools.
+				</p>
+			</div>
+			<div class="spread-technology-graphics technologies">
+				<ul>
+					<li>
+						<div class="img-wrapper">
+							<img src="/public/img/spreads/theBook/jquery-icon.png" />
+						</div>
+						<span>
+							jQuery
+						</span>
+					</li>
+					<li>
+						<i class="fa fa-html5"></i>
+						<span>
+							HTML5
+						</span>
+					</li>
+					<li>
+						<i class="ionicons ion-social-sass"></i>
+						<span>
+							Sass
+						</span>
+					</li>
+					<li>
+						<i class="fa fa-css3"></i>
+						<span>
+							CSS3
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-basic-section">
+		<div class="section-content">
+			<div class="spread-section-left media">
+				<img src="/public/img/spreads/theBook/browsing.png" />
+				<span class="caption">Masonry grid of PNMs</span>
+			</div>
+			<div class="spread-section-right content">
+				<h2>Browsing PNMs</h2>
+				<p>
+					One of The Book's goals is to give as much face
+					time as possible to every PNM. To do this, I
+					used <a href="#">Masonry</a>, a Javascript grid
+					layout library, to present the PNMs in a random
+					order every time a brother visited the browse
+					page.
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-basic-section">
+		<div class="section-content">
+			<div class="spread-section-left content">
+				<h2>Individual PNM Pages</h2>
+				<p>
+					The primary use case for The Book is to share
+					snipets that reveal a PNM's character and
+					personality. PNMs each have a page devoted to
+					them that highlights these traits,
+					consolidating that information for the
+					brotherhood.
+				</p>
+			</div>
+			<div class="spread-section-right media">
+				<img src="/public/img/spreads/theBook/individual.png" />
+				<span class="caption">Individual PNM page</span>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-basic-section">
+		<div class="section-content">
+			<div class="spread-section-left media">
+				<img src="/public/img/spreads/theBook/news.png" />
+				<span class="caption">Portion of the news feed</span>
+			</div>
+			<div class="spread-section-right content">
+				<h2>News Feed</h2>
+				<p>
+					While it's great to have a place to hold
+					information on all the interactions we have
+					with PNMs, painstakingly browsing every PNM
+					page to check for new information isn't
+					efficient. Instead, on The Book's main browse
+					page, we feature a newws feed that displays the
+					most recent brother activity so that users can
+					stay up to date on the most relevant
+					information.
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="spread-basic-section">
+		<div class="section-content">
+			<div class="spread-section-left content">
+				<h2>End Result</h2>
+				<p>
+					This is the second year that The Book has been used.
+					With more than a hundred active members, the application
+					has proved to be robust and effective, allowing the
+					chapter to wield a greater control over the recruitment process.
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="all-work">
+		<div class="section-content">
+			<button ng-click="state.go('dock.work')">
+				<i class="ionicons ion-chevron-left"></i>
+				<span>All work</span>
+			</button>
+		</div>
+	</section>
+
+
+</article>

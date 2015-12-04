@@ -1,0 +1,39 @@
+/****************
+ * FONT IMPORTS *
+ ****************/
+// Big John
+@font-face {
+	font-family: Big-John;
+	src: url('/public/fonts/BigJohn/big-john.otf');
+}
+
+// Chaparral Pro
+@font-face {
+	font-family: Chaparral-Pro-Regular;
+	src: url('/public/fonts/ChaparralPro/ChaparralPro-Regular.otf');
+}
+@font-face {
+	font-family: Chaparral-Pro-Bold;
+	src: url('/public/fonts/ChaparralPro/ChaparralPro-Bold.otf');
+}
+@font-face {
+	font-family: Chaparral-Pro-Italic;
+	src: url('/public/fonts/ChaparralPro/ChaparralPro-Italic.otf');
+}
+@font-face {
+	font-family: Chaparral-Pro-Bold-It;
+	src: url('/public/fonts/ChaparralPro/ChaparralPro-BoldIt.otf');	
+}
+@font-face {
+	font-family: Chaparral-Pro-Light-It;
+	src: url('/public/fonts/ChaparralPro/ChaparralPro-LightIt.otf');
+}
+
+
+/******************
+ * FONT VARIABLES *
+ ******************/
+$header-font-1: Big-John;
+$text-font-1: Chaparral-Pro-Regular;
+$text-font-2: Chaparral-Pro-Italic;
+$text-font-3: Chaparral-Pro-Bold;
